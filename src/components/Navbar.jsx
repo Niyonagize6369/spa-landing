@@ -6,6 +6,8 @@ export default function Navbar() {
       <Link to="/" style={{ marginRight: "1rem", color: "#fff" }}>Home</Link>
       <Link to="/about" style={{ marginRight: "1rem", color: "#fff" }}>About</Link>
       <Link to="/contact" style={{ color: "#fff" }}>Contact</Link>
+      <Link to="/search">Search</Link>
+
     </nav>
   );
 }
