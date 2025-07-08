@@ -1,5 +1,6 @@
 import { useAppContext } from "../context/AppContext";
 
+
 export default function Home() {
   const { message } = useAppContext();
   return (
